@@ -126,6 +126,6 @@ If Windows will not let you replace `RelicToast.dll`, the game is probably still
 
 Slay the Spire 2 is in active development, and modding APIs can change. If a game or BaseLib update breaks Relic Toast, please open an issue with your game version, BaseLib version, and the log file if available.
 
-## Development Transparency
+## Development Note
 
-Relic Toast was built with AI coding assistance under Bruno Marchi's direction, testing, and design feedback.
+This project was built with AI coding assistance.
