@@ -1,0 +1,10 @@
+bin/
+obj/
+.vs/
+.idea/
+*.user
+*.suo
+*.DotSettings.user
+
+# Local planning and AI-assistant notes that are not part of the public repo.
+ai-helpers/

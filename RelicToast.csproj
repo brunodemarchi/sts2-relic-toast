@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <AssemblyName>RelicToast</AssemblyName>
+    <RootNamespace>RelicToast</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <Target Name="ValidateSts2References" BeforeTargets="ResolveReferences">
+    <Error Condition="!Exists('$(Sts2DataDir)/sts2.dll')" Text="Could not find sts2.dll. Set Sts2Path to your Slay the Spire 2 install directory." />
+    <Error Condition="!Exists('$(Sts2DataDir)/0Harmony.dll')" Text="Could not find 0Harmony.dll. Set Sts2Path to your Slay the Spire 2 install directory." />
+    <Error Condition="!Exists('$(Sts2DataDir)/GodotSharp.dll')" Text="Could not find GodotSharp.dll. Set Sts2Path to your Slay the Spire 2 install directory." />
+    <Error Condition="!Exists('$(BaseLibDll)')" Text="Could not find BaseLib.dll. Install BaseLib or set Sts2Path to your Slay the Spire 2 install directory." />
+  </Target>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>$(Sts2DataDir)/0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="GodotSharp">
+      <HintPath>$(Sts2DataDir)/GodotSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="sts2">
+      <HintPath>$(Sts2DataDir)/sts2.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="BaseLib">
+      <HintPath>$(BaseLibDll)</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="RelicToast.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

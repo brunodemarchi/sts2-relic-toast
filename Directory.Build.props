@@ -1,0 +1,7 @@
+<Project>
+  <PropertyGroup>
+    <Sts2Path Condition="'$(Sts2Path)' == ''">C:/Program Files (x86)/Steam/steamapps/common/Slay the Spire 2</Sts2Path>
+    <Sts2DataDir>$(Sts2Path)/data_sts2_windows_x86_64</Sts2DataDir>
+    <BaseLibDll>$(Sts2Path)/mods/BaseLib/BaseLib.dll</BaseLibDll>
+  </PropertyGroup>
+</Project>

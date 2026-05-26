@@ -1,0 +1,17 @@
+{
+  "id": "RelicToast",
+  "name": "Relic Toast",
+  "author": "Bruno",
+  "description": "Shows a localized in-game popup when you obtain a relic.",
+  "version": "v0.1.0",
+  "has_pck": false,
+  "has_dll": true,
+  "min_game_version": "v0.105.0",
+  "dependencies": [
+    {
+      "id": "BaseLib",
+      "min_version": "v3.1.2"
+    }
+  ],
+  "affects_gameplay": false
+}
