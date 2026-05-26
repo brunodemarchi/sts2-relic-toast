@@ -128,4 +128,4 @@ Slay the Spire 2 is in active development, and modding APIs can change. If a gam
 
 ## Development Note
 
-This project was built with AI coding assistance.
+Relic Toast was built with AI coding assistance. I guided the feature design, tested it in-game, reported bugs, chose behavior/settings, and iterated on the user experience. The implementation is a C# STS2/BaseLib/Harmony mod generated and refined collaboratively with AI.

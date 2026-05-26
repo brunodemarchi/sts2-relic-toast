@@ -128,4 +128,4 @@ Slay the Spire 2 está em desenvolvimento ativo, e APIs de modding podem mudar. 
 
 ## Nota de Desenvolvimento
 
-Este projeto foi criado com assistência de IA.
+Relic Toast foi criado com assistência de IA. Eu guiei o design das funcionalidades, testei dentro do jogo, reportei bugs, escolhi comportamentos/configurações e iterei na experiência de uso. A implementação é um mod C# para STS2/BaseLib/Harmony gerado e refinado em colaboração com IA.
