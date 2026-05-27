@@ -57,10 +57,10 @@ internal sealed class RelicToastConfig : SimpleModConfig
     [ConfigSlider(0.25, 2.0, 0.05, Format = "{0:0.00}x")]
     public static double Scale { get; set; } = 1.0;
 
-    [ConfigSlider(-1000, 1000, 5, Format = "{0} px")]
+    [ConfigSlider(-500, 500, 5, Format = "{0} px")]
     public static int OffsetX { get; set; }
 
-    [ConfigSlider(-1000, 1000, 5, Format = "{0} px")]
+    [ConfigSlider(-500, 500, 5, Format = "{0} px")]
     public static int OffsetY { get; set; }
 
     [ConfigSlider(0, 2000, 25, Format = "{0} ms")]
