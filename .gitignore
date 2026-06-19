@@ -8,3 +8,8 @@ obj/
 
 # Local planning and AI-assistant notes that are not part of the public repo.
 ai-helpers/
+.tmp/
+
+# Steam Workshop uploader local state.
+workshop/mod_id.txt
+workshop/mod-uploader.log

@@ -25,6 +25,14 @@ O pop-up usa o nome, a descrição, a raridade e a arte da relíquia direto do j
 
 ## Instalação
 
+### Steam Workshop
+
+Inscreva-se na Steam Workshop: [Relic Toast](https://steamcommunity.com/sharedfiles/filedetails/?id=3747521513)
+
+Confirme que o BaseLib também está instalado e ativado.
+
+### Instalação Manual
+
 1. Baixe o zip mais recente do `RelicToast` na página de Releases do GitHub.
 2. Feche Slay the Spire 2.
 3. Extraia o zip dentro da pasta `mods` do Slay the Spire 2.

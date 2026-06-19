@@ -25,6 +25,14 @@ The popup uses the relic's current in-game name, description, rarity, and artwor
 
 ## Install
 
+### Steam Workshop
+
+Subscribe on Steam Workshop: [Relic Toast](https://steamcommunity.com/sharedfiles/filedetails/?id=3747521513)
+
+Make sure BaseLib is also installed and enabled.
+
+### Manual Install
+
 1. Download the latest `RelicToast` release zip from the GitHub Releases page.
 2. Close Slay the Spire 2.
 3. Extract the zip into your Slay the Spire 2 `mods` folder.
