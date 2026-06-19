@@ -64,10 +64,10 @@ internal sealed class RelicToastConfig : SimpleModConfig
     public static int OffsetY { get; set; }
 
     [ConfigSlider(0, 2000, 25, Format = "{0} ms")]
-    public static int AnimationInMs { get; set; } = 180;
+    public static int AnimationInMs { get; set; } = 400;
 
     [ConfigSlider(0, 2000, 25, Format = "{0} ms")]
-    public static int AnimationOutMs { get; set; } = 160;
+    public static int AnimationOutMs { get; set; } = 400;
 
     [ConfigSlider(0, 2000, 25, Format = "{0} ms")]
     public static int QueueDelayMs { get; set; } = 100;

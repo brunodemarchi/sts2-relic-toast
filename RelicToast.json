@@ -3,7 +3,7 @@
   "name": "Relic Toast",
   "author": "Bruno",
   "description": "Shows a localized in-game popup when you obtain a relic.",
-  "version": "v0.1.1",
+  "version": "v0.1.2",
   "has_pck": false,
   "has_dll": true,
   "min_game_version": "v0.105.0",
