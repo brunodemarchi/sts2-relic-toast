@@ -1,8 +1,8 @@
 {
   "title": "Relic Toast",
-  "description": "Relic Toast shows a configurable in-game popup whenever you obtain a relic in Slay the Spire 2.\n\nIt is especially useful for streamers and video creators: viewers can immediately see which relic was picked up and what it does, without needing to recognize the icon.\n\nFeatures:\n- Uses the game's relic art and localized relic text\n- Configurable position, offsets, scale, duration, and animations\n- Includes a test toast in the mod settings\n- Local-only visual mod\n\nRequires BaseLib.",
+  "description": "Relic Toast shows a configurable in-game popup whenever you obtain a relic in Slay the Spire 2.\n\nIt is especially useful for streamers and video creators: viewers can immediately see which relic was picked up and what it does, without needing to recognize the icon.\n\nFeatures:\n- Uses the game's relic art and localized relic text\n- Configurable position, offsets, scale, duration, and animations\n- Includes a test toast in the mod settings\n- Local-only visual mod\n\nRequires BaseLib.\n\nSource code:\nhttps://github.com/brunodemarchi/sts2-relic-toast\n\nThis mod is provided as-is. Active maintenance is not guaranteed, but the source is public so players can inspect it, fork it, or submit fixes.\n\nMultiplayer note: I do not play multiplayer, so Relic Toast has not been tested in multiplayer yet.",
   "visibility": "public",
-  "changeNote": "Changed default animation in/out durations to 400 ms.",
+  "changeNote": "Added source code and maintenance note to the Workshop description.",
   "tags": [
     "QoL"
   ],
